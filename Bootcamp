@@ -1,67 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2022-02-05T00:35:13.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="gk5K5yIzgaHtQph6swlD" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T16:12:03.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="C3DERSysZZ7FDudj9IO2" version="16.5.3" type="github">
   <diagram id="t5yMpyswPoFLBXd7PdYS" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-5" value="MongoDB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="630" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fKy2d67nVb0zikbvZ7JT-6" target="fKy2d67nVb0zikbvZ7JT-6" edge="1">
+        <mxCell id="fKy2d67nVb0zikbvZ7JT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="248" as="targetPoint" />
+            <mxPoint x="580" y="248" as="targetPoint" />
+            <mxPoint x="580" y="248" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="230" y="88" width="320" height="320" as="geometry" />
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="60" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fKy2d67nVb0zikbvZ7JT-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="230" y="248" as="targetPoint" />
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-7">
+          <mxGeometry width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fKy2d67nVb0zikbvZ7JT-5" value="MongoDB&lt;br&gt;Client Collection" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="cZA8UA-m2V86Bjv39QiF-7" vertex="1">
+          <mxGeometry x="146" y="12" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-1" value="Client" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-7">
+          <mxGeometry x="23" y="10" width="73.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cZA8UA-m2V86Bjv39QiF-7" source="fKy2d67nVb0zikbvZ7JT-5" target="cZA8UA-m2V86Bjv39QiF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53" y="280" as="sourcePoint" />
+            <mxPoint x="103" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-7" value="Cliente" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" parent="1" vertex="1">
-          <mxGeometry x="40" y="210" width="78" height="76" as="geometry" />
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="200" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fKy2d67nVb0zikbvZ7JT-8" target="fKy2d67nVb0zikbvZ7JT-9" edge="1">
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-8">
+          <mxGeometry width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-10" value="MongoDB&lt;br&gt;Product Collection" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-8">
+          <mxGeometry x="146" y="12" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-11" value="Product" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-8">
+          <mxGeometry x="23" y="10" width="73.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cZA8UA-m2V86Bjv39QiF-8" source="cZA8UA-m2V86Bjv39QiF-10" target="cZA8UA-m2V86Bjv39QiF-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53" y="280" as="sourcePoint" />
+            <mxPoint x="103" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="340" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-15">
+          <mxGeometry width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-17" value="MongoDB&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Payment&lt;/span&gt;&amp;nbsp;Collection" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-15">
+          <mxGeometry x="146" y="12" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-18" value="Payment" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-15">
+          <mxGeometry x="23" y="10" width="73.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cZA8UA-m2V86Bjv39QiF-15" source="cZA8UA-m2V86Bjv39QiF-17" target="cZA8UA-m2V86Bjv39QiF-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53" y="280" as="sourcePoint" />
+            <mxPoint x="103" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="310" y="480" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-20">
+          <mxGeometry width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-22" value="MongoDB&lt;br&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;History&lt;/span&gt;&amp;nbsp;Collection" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-20">
+          <mxGeometry x="146" y="12" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-23" value="History" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;" vertex="1" parent="cZA8UA-m2V86Bjv39QiF-20">
+          <mxGeometry x="23" y="10" width="73.5" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cZA8UA-m2V86Bjv39QiF-20" source="cZA8UA-m2V86Bjv39QiF-22" target="cZA8UA-m2V86Bjv39QiF-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53" y="280" as="sourcePoint" />
+            <mxPoint x="103" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-25" value="Config Server" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/gear-128.png" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-26" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="10" y="319" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cZA8UA-m2V86Bjv39QiF-25" target="cZA8UA-m2V86Bjv39QiF-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="390" as="sourcePoint" />
+            <mxPoint x="60" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZA8UA-m2V86Bjv39QiF-11" target="cZA8UA-m2V86Bjv39QiF-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-8" value="Microservicio&lt;br&gt;Clientes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="133" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fKy2d67nVb0zikbvZ7JT-9" target="fKy2d67nVb0zikbvZ7JT-8" edge="1">
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZA8UA-m2V86Bjv39QiF-1" target="cZA8UA-m2V86Bjv39QiF-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-9" value="Microservicio&lt;br&gt;Productos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="303" width="120" height="60" as="geometry" />
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZA8UA-m2V86Bjv39QiF-18" target="cZA8UA-m2V86Bjv39QiF-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fKy2d67nVb0zikbvZ7JT-5" target="fKy2d67nVb0zikbvZ7JT-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="290" as="sourcePoint" />
-            <mxPoint x="450" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fKy2d67nVb0zikbvZ7JT-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="fKy2d67nVb0zikbvZ7JT-5" target="fKy2d67nVb0zikbvZ7JT-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="290" as="sourcePoint" />
-            <mxPoint x="450" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0WQOYVuGlt41rGOpJ00-1" value="Microservicio&lt;br&gt;Transacciones" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="f0WQOYVuGlt41rGOpJ00-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="f0WQOYVuGlt41rGOpJ00-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="240" as="sourcePoint" />
-            <mxPoint x="380" y="173" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0WQOYVuGlt41rGOpJ00-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="f0WQOYVuGlt41rGOpJ00-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="240" as="sourcePoint" />
-            <mxPoint x="440" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="cZA8UA-m2V86Bjv39QiF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZA8UA-m2V86Bjv39QiF-23" target="cZA8UA-m2V86Bjv39QiF-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
